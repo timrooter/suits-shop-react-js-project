@@ -1,0 +1,116 @@
+header{
+    position: relative;
+    margin-bottom: 40px;
+}
+
+header .logo{
+    font-weight: 600;
+    font-size: 20px;
+}
+header ul.nav{
+    float: right;
+    list-style:none ;
+}
+
+header ul.nav li{
+    display: inline;
+    margin-left: 25px;
+    cursor: pointer;
+    transition: opacity 500ms ease;
+}
+header ul.nav li:hover{
+    opacity: 0.5;
+}
+
+.nav li a {
+    text-decoration: none;
+  }
+header .shop-cart-button{
+    float: right;
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+}
+
+header .shop-cart-button:hover,
+header .shop-cart-button:hover.active{
+    color: #da3939;
+    transform: scale(1.5);
+}
+header .shop-cart{
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    width: 420px;
+    background: #ffffff;
+    /* box-shadow: 37px -16px 99px -53px rgba(250,249,249,0.77); */
+    -webkit-box-shadow: 37px -16px 99px -53px rgba(250,249,249,0.77);
+    -moz-box-shadow: 37px -16px 99px -53px rgba(250,249,249,0.77);
+    z-index: 1000;
+    /* border: 1px solid #f1f1f1; */
+    padding: 20px;
+    padding-bottom: 0 ;
+    box-shadow: -2px 2px 75px -25px rgba(0,0,0,.55);
+    transition: all .15s;
+}
+header .shop-cart .empty h2{
+    font-size: 20px;
+margin-bottom: 20px;
+}
+
+header .shop-cart .item{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+
+}
+header .shop-cart .item img{
+    width: 70px;
+    float: left;
+    margin-right: 20px; 
+}
+header .shop-cart .item h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+header .shop-cart .item b{
+    color: #5fa36a;
+    font-weight: 600;
+}
+header .shop-cart .item .delete-icon{
+    color: #ca5252;
+    float: right;
+    position: relative;
+    top: -25px;
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+}
+header .shop-cart .item .delete-icon:hover{
+    color: #d83030 ;
+    transform: scale(1.5);
+}
+header .shop-cart .summa{
+    float: left;
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.checkout-button {
+    width: 100%;
+    background-color: #af2f2f;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    /* border-radius: 3px; */
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .checkout-button:hover {
+    background-color: #961919;
+  }
+  
