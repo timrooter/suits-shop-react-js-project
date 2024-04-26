@@ -1,13 +1,20 @@
 # Inamkhojayev Timur React JS frontend development project
-e-Commerce project on React JS. Classic Suits online shop.
 
-After download, to run the project you have to type the command in The Project Terminal '**npm install**' or '**npm i react-scripts**' and after that '**npm run start**' 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=REACT-JS-FRONTEND)](https://git.io/typing-svg)
+### Description
+e-Commerce project on React JS. Classic Suits online shop.
+Mostly oriented on Styles, Routes, Components, Scripts and etc. There is no any backend part for this project. Basically shows how the React JS works and demonstrates an 
+
+### Setup and Deployment
+Download or clone the project. To run the project you have to type the command in The Project file Terminal '**npm install**' or '**npm i react-scripts**' to download necessary node modules and after that '**npm run start**' 
 
 Проект электронной коммерции на React JS. Интернет-магазин классических костюмов.
 
 После загрузки, чтобы запустить проект, вам необходимо ввести команду в терминале проекта '**npm install**' или «**npm i react-scripts**», а затем «**npm run start**».
 
-Screenshots
+**Screenshots**
+
+
 <img width="1456" alt="image" src="https://github.com/TimurInamkhojayev/inamkhojayev-timur-react-js-project/assets/146642629/314c92e6-b30b-4a90-b90d-6cc7c2103f94">
 <img width="1454" alt="image" src="https://github.com/TimurInamkhojayev/inamkhojayev-timur-react-js-project/assets/146642629/4f9d6f9f-335c-4806-ac50-cff89e413f4f">
 <img width="1455" alt="image" src="https://github.com/TimurInamkhojayev/inamkhojayev-timur-react-js-project/assets/146642629/97214e7c-6f88-469e-868c-01ba3652f9f4">
